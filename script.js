@@ -647,3 +647,8 @@
     init();
   }
 })();
+
+// 더블탭 확대 방지
+container.addEventListener('dblclick', (e) => {
+  e.preventDefault();
+}, { passive: false });

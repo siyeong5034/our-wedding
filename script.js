@@ -248,7 +248,7 @@
     // Header
     const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
       'July', 'August', 'September', 'October', 'November', 'December'];
-    grid.innerHTML = `<div class="calendar__header">${monthNames[month]} ${year}</div>`;
+    grid.innerHTML = `<div class="calendar__header">${year}년 ${month + 1}월</div>`;
 
     // Weekdays
     const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
@@ -497,7 +497,7 @@
             ${acc.bank} ${acc.number}
           </div>
         </div>
-        <button class="account-item__copy" data-account="${acc.bank} ${acc.number} ${acc.name || ''}">
+        <button class="account-item__copy" data-account="${acc.name || ''} ${acc.bank} ${acc.number}">
           복사
         </button>
       `;

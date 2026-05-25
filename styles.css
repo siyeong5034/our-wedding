@@ -320,7 +320,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 3.5rem 2.5rem;
-  touch-action: pan-y;
+  touch-action: none;
   user-select: none;
   -webkit-user-select: none;
 }

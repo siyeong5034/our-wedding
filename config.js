@@ -14,20 +14,20 @@
 
 const CONFIG = {
   // ── 초대장 열기 ──
-  useCurtain: false,  // 초대장 열기 화면 사용 여부 (true: 사용, false: 바로 본문 표시)
+  useCurtain: true,  // 초대장 열기 화면 사용 여부 (true: 사용, false: 바로 본문 표시)
 
   // ── 메인 (히어로) ──
   groom: {
-    name: "신랑",
+    name: "박시영",
     nameEn: "Groom",
-    father: "여기서이렇게이름을바꾸시면됩니다",
+    father: "아버지",
     mother: "어머니",
     fatherDeceased: false,
     motherDeceased: false
   },
 
   bride: {
-    name: "신부",
+    name: "손지영",
     nameEn: "Bride",
     father: "아버지",
     mother: "어머니",
@@ -36,8 +36,8 @@ const CONFIG = {
   },
 
   wedding: {
-    date: "2026-05-09",
-    time: "13:00",
+    date: "2026-08-15",
+    time: "16:20",
     venue: "예식장 이름",
     hall: "그랜드홀 5층",
     address: "서울특별시 강남구 테헤란로 123",

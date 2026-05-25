@@ -19,16 +19,16 @@ const CONFIG = {
   // ── 메인 (히어로) ──
   groom: {
     name: "박시영",
-    nameEn: "Groom",
-    father: "아버지",
-    mother: "어머니",
+    nameEn: "Siyeong Park",
+    father: "박 홍천",
+    mother: "윤 경순",
     fatherDeceased: false,
     motherDeceased: false
   },
 
   bride: {
     name: "손지영",
-    nameEn: "Bride",
+    nameEn: "Jiyoung Son",
     father: "아버지",
     mother: "어머니",
     fatherDeceased: false,
@@ -38,13 +38,13 @@ const CONFIG = {
   wedding: {
     date: "2026-08-15",
     time: "16:20",
-    venue: "예식장 이름",
-    hall: "그랜드홀 5층",
-    address: "서울특별시 강남구 테헤란로 123",
-    tel: "02-1234-5678",
+    venue: "더파티움 안양",
+    hall: "라포레홀 7층",
+    address: "경기도 안양시 동안구 시민대로 311",
+    tel: "031-731-5000",
     mapLinks: {
-      kakao: "https://map.kakao.com/",
-      naver: "https://map.naver.com/"
+      kakao: "https://place.map.kakao.com/138147430",
+      naver: "https://naver.me/IFgdHqLz"
     }
   },
 
@@ -66,9 +66,9 @@ const CONFIG = {
   // ── 마음 전하실 곳 ──
   accounts: {
     groom: [
-      { role: "신랑", name: "홍길동", bank: "국민은행", number: "000-000-000000" },
-      { role: "아버지", name: "홍판서", bank: "신한은행", number: "000-000-000000" },
-      { role: "어머니", name: "김부인", bank: "우리은행", number: "000-000-000000" }
+      { role: "신랑", name: "박시영", bank: "신한은행", number: "110-321-079764" },
+      { role: "아버지", name: "박 홍천", bank: "기업은행", number: "138-020526-02-010" },
+      { role: "어머니", name: "윤 경순", bank: "신한리은행", number: "110-051-462228" }
     ],
     bride: [
       { role: "신부", name: "김영희", bank: "하나은행", number: "000-000-000000" },
@@ -79,7 +79,7 @@ const CONFIG = {
 
   // ── 링크 공유 시 나타나는 문구 ──
   meta: {
-    title: "신랑 ♥ 신부 결혼합니다",
-    description: "2025년 1월 1일, 소중한 분들을 초대합니다."
+    title: "신랑 박시영 ♥ 신부 손지영 결혼합니다",
+    description: "2026년 8월 15일, 소중한 분들을 초대합니다."
   }
 };

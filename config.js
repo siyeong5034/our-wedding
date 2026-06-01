@@ -71,8 +71,8 @@ const CONFIG = {
       { role: "어머니", name: "윤 경순", bank: "신한은행", number: "110-051-462228" }
     ],
     bride: [
-      { role: "신부", name: "손 지영", bank: "하나은행", number: "1002-481-960619" },
-      { role: "아버지", name: "손 영만", bank: "우리은행", number: "559-153231-02006" },
+      { role: "신부", name: "손 지영", bank: "우리은행", number: "1002-481-960619" },
+      { role: "아버지", name: "손 영만", bank: "우리은행", number: "559-153231-02-006" },
       { role: "어머니", name: "박 현리", bank: "제일은행", number: "203-20-186290" }
     ]
   },
